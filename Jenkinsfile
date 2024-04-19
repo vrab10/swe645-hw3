@@ -4,7 +4,7 @@ pipeline {
         maven '3.9.5'
     }
     environment {
-        registry = "yaswanthlingamaneni/swe645"
+        registry = "yaswanthlingamaneni/swe645-hw3"
         credential = 'dockerhub'
     }
     stages {
