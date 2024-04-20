@@ -23,7 +23,7 @@ public class FeedBackController{
         return "Succesully working...!!!";
     }
 
-    @GetMapping("/get_all_feedbacks")
+    @GetMapping("/get_feedbacks")
     public ResponseEntity<List<Feedback>> getFeedbacks() {
         List<Feedback> feedbacks = repo.findAll();
         return ResponseEntity.ok(feedbacks);
